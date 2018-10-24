@@ -20,6 +20,10 @@ _For words beginning with a vowel, add "way" to the end.
 Example Input: apple
 Example Output: apple-way_
 
+_For words beginning with one or more consonants, move all of the first consecutive consonants to the end, and add "ay".
+Example Input: glove
+Example Output: ove-glay_
+
 _If the first consonants include "qu", move the "u" along with the "q". Don't forget about words like "squeal" where "qu" doesn't come first!
 Example Input: quiz
 Example Output: iz-quay_
